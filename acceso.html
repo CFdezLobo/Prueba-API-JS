@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa dedicada a la publicación y desarrollo de web mediante el uso de lenguajes front-end">
+    <meta name="robots" content="index, follow">
+    <title>Acceso - Designers company</title>
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Mukta:wght@300&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/acceso.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="contacto">
+            <div class="telefonoYmail">
+                <a href="tel:+34646265852">
+                    <i class="bi bi-telephone"></i>
+                    <span>646 26 58 52</span>
+                </a>
+                <a href="mailto:info@centronelson.org">
+                    <i class="bi bi-envelope"></i>
+                    <span>info@centronelson.org</span>
+                </a>
+            </div>
+            <div class="redesSociales">
+                <a href="https://twitter.com/centronelson">
+                     <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/centronelson/?hl=es">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.twitch.tv/">
+                    <i class="bi bi-twitch"></i>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://es-es.facebook.com/CentroNelson/">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/nelson_blanco.gif" alt="">
+            </a>
+        </div>
+
+        <nav>
+            <ul class="menu_principal">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Titulaciones</a>
+                    <ul class="submenu">
+                        <li><a href="#">Título de F.P. Básica en inf. y Com.</a></li>
+                        <li><a href="#">Título de Grado Medio S.M.R.</a></li>
+                        <li><a href="#">Título de Grado Superior D.A.W.</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nelson</a>
+                    <ul class="submenu">
+                        <li><a href="#">Nuestro centro</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Equipo docente</a></li>
+                        <li><a href="#">Proyecto</a></li>
+                        <li><a href="#">Instalaciones</a></li>
+                        <li><a href="#">Documentos internos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Becas</a></li>
+                <li><a href="#">Solicitud de plaza</a>
+                    <ul class="submenu">
+                        <li><a href="#">Solicitud de plaza F.P Básica</a></li>
+                        <li><a href="#">Solicitud de plaza para Grado medio S.M.R</a></li>
+                        <li><a href="#">Reserva de plaza y matrícula Gardo Superior D.A.W</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="perfilYcompras">
+            <a class="miCuenta" href="acceso.html">
+                <i class="bi bi-person-circle"></i>
+                <p>Mi cuenta</p>
+            </a>
+            <a href="#">
+                <i class="bi bi-cart"></i>
+                <p>Carrito</p>
+            </a>
+        </div>
+
+    </header>
+
+    <main>
+       
+        <div class="inicioSesion">
+            <div class="formularioInicioSesion">
+                <h2>INICIA SESION</h2>
+                <form id="formularioAcceso" action="inicioSesion.html" method="get" enctype="multipart/form-data">
+                    <input type="email" id="mail" name="mail" class="inputAcceso" placeholder="EMAIL">
+                    <span id="errorMail"></span>
+                    <input type="password" id="pass" name="pass" class="inputAcceso" placeholder="CONTRASEÑA">
+                    <span id="errorPass"></span> 
+                    <a class="olvidarContraseña" href="#">¿HAS OLVIDADO TU CONTRASEÑA?</a>
+                    <input type="submit" class="enlaceInicioSesion" value="INICIA SESIÓN">
+                </form>
+            </div>
+            <div class="exitoInicioSesion"></div>
+        </div>
+
+        <div class="registro">
+            <div class="formularioRegistro">
+                <h2>REGISTRATE</h2>
+                <p>SI TODAVÍA NO TIENES UNA CUENTA DE USUARIO DESIGNERSCOMPANY.COM UTILIZA ESTA OPCIÓN PARA ACCEDER AL FORMULARIO DE REGISTRO</p>
+                <p>TE SOLICITAREMOS LA INFORMACIÓN IMPRESCINDIBLE PARA AGILIZAR EL PROCESO DE COMPRA</p>
+                <a class="enlaceRegistrate" href="registro.html">CREAR CUENTA</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="contacto">
+            <a href="tel:+34646265852">646 26 58 52</a>
+            <span>|</span>
+            <a href="#">Contacta</a>
+            <span>|</span>
+            <a href="mailto:infor@centronelson.org">info@centronelson.org</a>
+        </div>
+
+        <div class="nosotros">
+            <h3>Sobre nosotros</h3>
+            <a href="#">Quienes somos</a>
+            <a href="#">Proyectos</a>
+            <a href="#">Blog</a>
+            <a href="#">Trabaja con nosotros</a>
+        </div>
+
+        <div class="redesSociales">
+            <h3>Redes sociales</h3>
+            <a href="https://twitter.com/centronelson">
+                <i class="bi bi-twitter"></i>
+                Twitter
+            </a>
+            <a href="https://www.instagram.com/centronelson/?hl=es">
+                <i class="bi bi-instagram"></i>
+                Instagram
+            </a>
+            <a href="https://www.youtube.com/">
+                <i class="bi bi-youtube"></i>
+                Youtube
+            </a>
+            <a href="https://es-es.facebook.com/CentroNelson/">
+                <i class="bi bi-facebook"></i>
+                Facebook
+            </a>
+        </div>
+
+        <div class="enlaceIframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.75663469166!2d-3.7167358843505967!3d40.43638746236707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228431423d5db%3A0x53a0b966ac4d9128!2sCentro%20Nelson!5e0!3m2!1ses!2ses!4v1639734636113!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="legal">
+            <div class="contenido">
+                <a href="#">Aviso Legal</a>
+                <span>|</span>
+                <a href="#">Política de privacidad</a>
+                <span>|</span>
+                <a href="#">Uso de cookies</a>
+                <span>|</span>
+                <a href="#">Baja newsletter</a>
+            </div>
+            <hr>
+            <span>© 2021 Centro Nelson - Madrid (Moncloa). Todos los derechos reservados</span>
+        </div>
+    </footer>
+    <div class="cookies" id="contenedorCookies">
+        <i class="bi bi-x-square" id="iconoCerrar"></i>
+        <h5>AVISO DE COOKIES</h5>
+        <p>
+            Nuestra web utiliza cookies propias y de terceros para gestionar el portal, recabar información sobre la
+            utilización del mismo, mejorar nuestros servicios
+            y mostrarte publicidad relacionada con tus preferencias mediante el análisis de tu navegación. Puedes hacer
+            clic en ACEPTAR para permitir el uso de cookies
+            o ver la configuración de las cookies para ver información detallada y seleccionar qué tipo de cookies
+            deseas aceptar o rechazar.
+            <a href="#"> Más información sobre nuestras cookies</a>
+        </p>
+        <button class="botonCookies" id="botonCookies">Aceptar</button>
+    </div>
+
+    <script src="./js/acceso.js"></script>
+</body>
+
+</html>
